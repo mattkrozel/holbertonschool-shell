@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dir chmod 713 .
+mkdir 713 my_dir
