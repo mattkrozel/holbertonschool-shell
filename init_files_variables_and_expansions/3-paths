@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv $PATH | ls | wc -1
+echo $PATH=path | ls 'path' | wc -1
