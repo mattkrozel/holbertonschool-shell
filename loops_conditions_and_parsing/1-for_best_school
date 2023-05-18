@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for a in Best Best Best Best Best Best Best Best Best Best; 
+do echo $a School; 
+done  
