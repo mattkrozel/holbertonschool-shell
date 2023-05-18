@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#best school ten times using while if loop
+
+bs=1
+while [ $bs -le 10 ]
+do
+	echo Best School
+	((bs++))
+	if [ $bs = 9 ]
+	then echo Hi
+	fi
+done
+
+  
