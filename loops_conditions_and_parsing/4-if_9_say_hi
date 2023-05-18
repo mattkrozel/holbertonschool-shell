@@ -6,7 +6,7 @@ while [ $bs -le 10 ]
 do
 	echo Best School
 	((bs++))
-	if [ $bs = 9 ]
+	if [ $bs = 10 ]
 	then echo Hi
 	fi
 done
