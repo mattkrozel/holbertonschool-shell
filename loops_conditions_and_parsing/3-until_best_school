@@ -2,11 +2,11 @@
 #best school ten times using until loop
 
 
-bs=1
-until [ $bs -le 10 ]
+bs=0
+until [ $bs -gt 10 ]
 do 
-	echo "Best School"
-	bs=$(( bs + 1 ))
+	echo Best School
+	(( bs++))
 
 done
 
