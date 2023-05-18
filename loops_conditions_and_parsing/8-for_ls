@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#display content of current directory with for loop
+
+
+for item in *
+do
+	echo "$item" | cut -d '-' -f 2-
+done
+
+  
