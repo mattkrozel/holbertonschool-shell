@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #best school ten times
 for a in Best Best Best Best Best Best Best Best Best Best; 
-do echo $a School; 
+do echo $a School;
+       sleep 1	
 done  
