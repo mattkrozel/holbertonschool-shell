@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
-#best school ten times
+#best school ten times with for loop
 for a in Best Best Best Best Best Best Best Best Best Best; 
 do echo $a School;
        sleep 1	
+#better code beneath
+#for a in {1..10};                                                    
+#do echo Best School;  
+
+
 done  
