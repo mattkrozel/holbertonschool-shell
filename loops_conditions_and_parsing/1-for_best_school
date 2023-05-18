@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#best school ten times
 for a in Best Best Best Best Best Best Best Best Best Best; 
 do echo $a School; 
 done  
