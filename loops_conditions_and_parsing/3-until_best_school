@@ -2,7 +2,7 @@
 #best school ten times using until loop
 
 
-bs=0
+bs=1
 until [ $bs -gt 10 ]
 do 
 	echo Best School
