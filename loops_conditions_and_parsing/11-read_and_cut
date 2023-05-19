@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#script that displays content of file with only the username, userid
+#and home directory path for the user using a while loop
+# READS AND CUTS FROM FILE
+
+fn='/etc/passwd'
+while read -r l 
+do
+	echo "$l" | cut -d ":" -f 1,3,6
+
+done < $fn
+
+
+  
