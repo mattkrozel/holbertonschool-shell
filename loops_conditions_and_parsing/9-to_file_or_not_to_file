@@ -19,6 +19,7 @@ then
 		echo school file is not empty
 	fi
 	if [ -f "$s" ]
+	then
 		echo school is a regular file
 	fi
 
