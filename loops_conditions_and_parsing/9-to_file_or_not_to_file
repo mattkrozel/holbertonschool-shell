@@ -4,7 +4,7 @@
 
 s=school
 
-if [ -f "$s" ]
+if [ -e "$s" ]
 
 then
 
@@ -14,9 +14,11 @@ then
 	if [ ! -s "$s" ]
 	then
 		echo school file is empty
-		echo school is a regular file
+
 	else
 		echo school file is not empty
+	fi
+	if [ -f "$s" ]
 		echo school is a regular file
 	fi
 
