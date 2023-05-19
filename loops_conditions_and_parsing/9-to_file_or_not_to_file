@@ -2,38 +2,31 @@
 #script that displays 0-100 and displaying certain words
 #at certain number multiples
 
-fb="FizzBuzz"
-f="Fizz"
-b="Buzz"
-c=1
+s=school
 
-while [ $c -le 100 ]
-do
+if [ -e $s ]
+then
+	echo school file exists
 
-	if [ $((c % 3 == 0)) ] && [ $((c % 5 == 0)) ]
+	if [ ! -s $s ]
 	then
-		echo $fb
-		((c++))
-
-	elif [ $((c % 3 == 0)) ]
-	then
-		echo $f
-		((c++))
-
-	elif [ $((c % 5 == 0)) ]
-	then
-		echo $b
-		((c++))
-
-	else
-		echo $c
-		((c++))
-
-
+		echo school file is empty
+	else 
+		echo school file is not empty
 	fi
 
+	if [ -f $s ]
+	then
+		echo school is a regular file
+	fi
 
-done
+else
+	echo school file does not exist
+
+
+
+
+fi
 
 
 

@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+#script that displays 0-100 and displaying certain words
+#at certain number multiples
+
+fb="FizzBuzz"
+f="Fizz"
+b="Buzz"
+c=1
+
+while [ $c -le 100 ]
+do
+
+	if [ $((c % 3 == 0)) ] && [ $((c % 5 == 0)) ]
+	then
+		echo $fb
+		((c++))
+
+	elif [ $((c % 3 == 0)) ]
+	then
+		echo $f
+		((c++))
+
+	elif [ $((c % 5 == 0)) ]
+	then
+		echo $b
+		((c++))
+
+	else
+		echo $c
+		((c++))
+
+
+	fi
+
+
+done
+
+
+
+  
