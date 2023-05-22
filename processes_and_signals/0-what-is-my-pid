@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays PID
+
+
+echo $$ $BASHPID
+
