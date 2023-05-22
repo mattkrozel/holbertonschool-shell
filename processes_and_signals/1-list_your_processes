@@ -2,5 +2,5 @@
 #displays list of currently running processes
 
 
-ps -frx
+ps -auxf
 
