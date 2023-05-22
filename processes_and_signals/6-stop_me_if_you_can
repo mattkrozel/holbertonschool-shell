@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays list of currently running processes
+#
+
+pkill -f 4-to_infinity_and_beyond
+
