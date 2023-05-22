@@ -3,7 +3,7 @@
 #
 #
 
-awk '{ print $1,$9 }' apache-access.log | sort
+awk '{ print $1,$9 }' apache-access.log
 
 
   
