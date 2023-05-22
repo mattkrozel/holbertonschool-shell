@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#displays list of currently running processes
+#
+
+x=1
+
+while [ $x -gt 0 ]
+do
+	trap echo "I am invincible!!!" 15
+	printf "To infinity and beyond\n"
+	((x++))
+	sleep 2
+done
+
