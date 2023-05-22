@@ -2,5 +2,5 @@
 #displays list of currently running processes
 #
 
-pgrep -f bash
+pgrep -f bash | grep -v grep
 
