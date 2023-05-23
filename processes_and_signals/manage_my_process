@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#displays list of currently running processes
+#
+
+x=1
+
+
+while [ "$x" -gt 0 ]
+do
+	echo "I am alive" > /tmp/my_process	
+	sleep 2
+done
+
